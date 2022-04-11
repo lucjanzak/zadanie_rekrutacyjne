@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form>
+        <div class="form-row">
+            <label for="firstname">Imię</label>
+            <input name="firstname" type="text" maxlength="20" />
+
+            <label for="lastname">Nazwisko</label>
+            <input name="lastname" type="text" maxlength="30" />
+        </div>
+
+        <div class="form-row">
+            <label for="pesel">PESEL</label>
+            <input name="pesel" id="pesel" type="text" maxlength="11" />
+        </div>
+
+        <div class="form-row">
+            <label for="date">Data urodzenia</label>
+            <input name="date" id="date" type="date" disabled />
+        </div>
+
+        <div class="form-row">
+            <input id="submit" type="button" value="Wyślij" />
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
